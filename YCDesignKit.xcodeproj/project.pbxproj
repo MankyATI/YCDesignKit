@@ -11,6 +11,9 @@
 		CA2C19F02819BA8200715516 /* YCDesignKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2C19E52819BA8100715516 /* YCDesignKit.framework */; };
 		CA2C19F52819BA8200715516 /* YCDesignKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2C19F42819BA8200715516 /* YCDesignKitTests.swift */; };
 		CA2C19F62819BA8200715516 /* YCDesignKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2C19E82819BA8100715516 /* YCDesignKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA2C1A002819BCDD00715516 /* YCColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2C19FF2819BCDD00715516 /* YCColors.swift */; };
+		CA2C1A022819C0FE00715516 /* YCLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2C1A012819C0FE00715516 /* YCLabel.swift */; };
+		CA2C1A042819C20000715516 /* YCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2C1A032819C20000715516 /* YCButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		CA2C19E92819BA8100715516 /* YCDesignKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = YCDesignKit.docc; sourceTree = "<group>"; };
 		CA2C19EF2819BA8200715516 /* YCDesignKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCDesignKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA2C19F42819BA8200715516 /* YCDesignKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCDesignKitTests.swift; sourceTree = "<group>"; };
+		CA2C19FF2819BCDD00715516 /* YCColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCColors.swift; sourceTree = "<group>"; };
+		CA2C1A012819C0FE00715516 /* YCLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCLabel.swift; sourceTree = "<group>"; };
+		CA2C1A032819C20000715516 /* YCButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,9 @@
 			children = (
 				CA2C19E82819BA8100715516 /* YCDesignKit.h */,
 				CA2C19E92819BA8100715516 /* YCDesignKit.docc */,
+				CA2C19FF2819BCDD00715516 /* YCColors.swift */,
+				CA2C1A012819C0FE00715516 /* YCLabel.swift */,
+				CA2C1A032819C20000715516 /* YCButton.swift */,
 			);
 			path = YCDesignKit;
 			sourceTree = "<group>";
@@ -195,6 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA2C19EA2819BA8100715516 /* YCDesignKit.docc in Sources */,
+				CA2C1A042819C20000715516 /* YCButton.swift in Sources */,
+				CA2C1A002819BCDD00715516 /* YCColors.swift in Sources */,
+				CA2C1A022819C0FE00715516 /* YCLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +354,7 @@
 		CA2C19FA2819BA8200715516 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -370,6 +383,7 @@
 		CA2C19FB2819BA8200715516 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -398,6 +412,7 @@
 		CA2C19FD2819BA8200715516 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MB47247PPD;
@@ -414,6 +429,7 @@
 		CA2C19FE2819BA8200715516 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MB47247PPD;
