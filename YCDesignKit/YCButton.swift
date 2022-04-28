@@ -11,6 +11,6 @@ import UIKit
 public extension UIButton {
     func bigButton() {
         backgroundColor = .primaryButtonColor
-        titleLabel?.textColor = .white
+        titleLabel?.textColor = .red
     }
 }

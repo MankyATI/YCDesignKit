@@ -14,6 +14,7 @@
 		CA2C1A002819BCDD00715516 /* YCColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2C19FF2819BCDD00715516 /* YCColors.swift */; };
 		CA2C1A022819C0FE00715516 /* YCLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2C1A012819C0FE00715516 /* YCLabel.swift */; };
 		CA2C1A042819C20000715516 /* YCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2C1A032819C20000715516 /* YCButton.swift */; };
+		CAEE01BB281B0D160012FC4F /* YCTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE01BA281B0D160012FC4F /* YCTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		CA2C19FF2819BCDD00715516 /* YCColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCColors.swift; sourceTree = "<group>"; };
 		CA2C1A012819C0FE00715516 /* YCLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCLabel.swift; sourceTree = "<group>"; };
 		CA2C1A032819C20000715516 /* YCButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCButton.swift; sourceTree = "<group>"; };
+		CAEE01BA281B0D160012FC4F /* YCTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				CA2C19FF2819BCDD00715516 /* YCColors.swift */,
 				CA2C1A012819C0FE00715516 /* YCLabel.swift */,
 				CA2C1A032819C20000715516 /* YCButton.swift */,
+				CAEE01BA281B0D160012FC4F /* YCTextField.swift */,
 			);
 			path = YCDesignKit;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			files = (
 				CA2C19EA2819BA8100715516 /* YCDesignKit.docc in Sources */,
 				CA2C1A042819C20000715516 /* YCButton.swift in Sources */,
+				CAEE01BB281B0D160012FC4F /* YCTextField.swift in Sources */,
 				CA2C1A002819BCDD00715516 /* YCColors.swift in Sources */,
 				CA2C1A022819C0FE00715516 /* YCLabel.swift in Sources */,
 			);
